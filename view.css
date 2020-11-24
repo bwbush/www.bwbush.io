@@ -36,6 +36,15 @@ h1 {
 }
 
 
+td {
+  text-align: center
+}
+
+td img {
+  max-width: 100%;
+}
+
+
 body {
   margin   : 0   ;
   font-size: 100%;
