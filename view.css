@@ -36,12 +36,17 @@ h1 {
 }
 
 
-td {
-  text-align: center
+.image {
+  vertical-align: bottom;
 }
 
-td img {
-  max-width: 100%;
+.image img {
+  max-width     : 100%  ;
+}
+
+.caption {
+  text-align    : center;
+  vertical-align: top   ;
 }
 
 
