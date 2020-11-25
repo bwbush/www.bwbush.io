@@ -14,26 +14,21 @@
 #overlay table {
   margin-left     : auto  ;
   margin-right    : auto  ;
-  width           : 80vw  ;
-  height          : 80vh  ;
+  width           : 80%   ;
   padding         : 2em   ;
   text-align      : center;
   background-color: white ;
 }
 
 #overlay img {
-  max-width : 75vw;
-  max-height: 75vh;
+  max-width : 100%;
+  max-height: 80vh;
 }
 
 
 #header {
-  height          : 100px;
-  width           : 100% ;
-  top             : 0    ;
-  position        : fixed;
-  z-index         : 100  ;
-  background-color: white;
+  height: 6.5em;
+  width : 100% ;
 }
 
 h1 {
@@ -49,9 +44,9 @@ h1 {
   justify-content    : flex-start;
   align-items        : flex-start;
   overflow-x         : auto      ;
-  border-bottom-style: solid    ;
-  border-bottom-width: thin     ;
-  border-bottom-color: steelblue;
+  border-bottom-style: solid     ;
+  border-bottom-width: thin      ;
+  border-bottom-color: steelblue ;
 }
 
 #navigation span, #navigation a {
@@ -68,10 +63,11 @@ h1 {
   color: black;
 }
 
+
 #main {
-  position: absolute;
-  top     : 5.5em   ;
-  margin  : 0.5em   ;
+  height    : calc(100% - 6.5em);
+  margin    : 0.5em             ;
+  overflow-y: auto              ;
 }
 
 
@@ -97,8 +93,11 @@ table {
 
 
 body {
-  margin   : 0   ;
-  font-size: 100%;
+  height        : 100vh ;
+  margin        : 0     ;
+  display       : flex  ;
+  flex-direction: column;
+  font-size     : 100%  ;
 }
 
 @media(max-width:500px) {
