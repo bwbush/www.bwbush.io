@@ -76,15 +76,6 @@ h1 {
   vertical-align: top;
 }
 
-.contacts a:hover {
-  text-decoration-line: underline;
-}
-
-.contacts a {
-  text-decoration: none ;
-  color          : black;
-}
-
 #photo {
   max-width: 10em ;
 }
@@ -113,15 +104,6 @@ table.art {
 
 .playlist {
   vertical-align: top;
-}
-
-.playlist a:hover {
-  text-decoration-line: underline;
-}
-
-.playlist a {
-  text-decoration: none ;
-  color          : black;
 }
 
 
@@ -159,11 +141,12 @@ div.poems {
   text-align: center;
 }
 
-.models a:hover {
+
+a:hover {
   text-decoration-line: underline;
 }
 
-.models a {
+a {
   text-decoration: none ;
   color          : black;
 }
