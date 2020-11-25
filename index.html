@@ -7,7 +7,7 @@
     <script src="controller.js"         type="application/javascript"> </script>
     <title>Bricolage</title>
   </head>
-  <body>
+  <body onload="setup()">
     <div id="header">
       <h1>Bricolage</h1>   
       <div id="navigation">
@@ -19,16 +19,28 @@
         <a href="technology.html">Technology</a>
       </div>
     </div>
-    <div id="main">
-      <img id="photo" src="images/bwbush-line-mod.png"/>
-      <h2>Contact</h2>
-      <ul class="contacts">
-        <li><i>Professional:</i> <a href="https://www.brianwbush.info/" target="bricolage">www.brianwbush.info</a></li>
-        <li><i>E-mail:</i> <a href="mailto:void@bwbush.io" target="bricolage">void@bwbush.io</a></li>
-        <li><i>Twitter:</i> <a href="https://twitter.com/bwbush" target="bricolage">@bwbush</a></li>
-        <li><i>Matrix:</i> <a href="https://element.io/get-started" target="bricolage">@bwbush:matrix.org</a></li>
-        <li><i>GnuPG:</i> <a href="http://keys.gnupg.net/pks/lookup?search=void%40bwbush.io&fingerprint=on" target="bricolage"><code>3C7D 9DA6 F609 D100 E7E9  125A A963 F1B2 BD1E E51C</code></a></li>
-      </ul>
+    <div id="main" tabindex="0">
+      <div>
+        <h2>Contact</h2>
+        <table class="contacts">
+          <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li><i>Professional:</i> <a href="https://www.brianwbush.info/" target="bricolage">www.brianwbush.info</a></li>
+                  <li><i>E-mail:</i> <a href="mailto:void@bwbush.io" target="bricolage">void@bwbush.io</a></li>
+                  <li><i>Twitter:</i> <a href="https://twitter.com/bwbush" target="bricolage">@bwbush</a></li>
+                  <li><i>Matrix:</i> <a href="https://element.io/get-started" target="bricolage">@bwbush:matrix.org</a></li>
+                  <li><i>GnuPG:</i> <a href="http://keys.gnupg.net/pks/lookup?search=void%40bwbush.io&fingerprint=on" target="bricolage"><code>3C7D 9DA6 F609 D100 E7E9  125A A963 F1B2 BD1E E51C</code></a></li>
+                </ul>
+              </td>
+              <td>
+                <img id="photo" src="images/bwbush-line-mod.png"/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </body>
 </html>

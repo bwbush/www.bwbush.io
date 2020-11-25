@@ -68,8 +68,13 @@ h1 {
   height    : calc(100% - 6.5em);
   margin    : 0.5em             ;
   overflow-y: auto              ;
+  outline   : none              ;
 }
 
+
+.contacts td {
+  vertical-align: top;
+}
 
 .contacts a:hover {
   text-decoration-line: underline;
@@ -82,11 +87,10 @@ h1 {
 
 #photo {
   max-width: 10em ;
-  float    : right;
 }
 
 
-table {
+table.art {
   width       : 100% ;
   table-layout: fixed;
 }

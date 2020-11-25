@@ -7,7 +7,7 @@
     <script src="controller.js"         type="application/javascript"> </script>
     <title>Bricolage</title>
   </head>
-  <body>
+  <body onload="setup()">
     <div id="overlay" onclick="hideOverlay()">
       <table>
         <tr>
@@ -29,8 +29,8 @@
         <a href="technology.html">Technology</a>
       </div>
     </div>
-    <div id="main">
-      <table>
+    <div id="main" tabindex="0">
+      <table class="art">
         <tbody>
           <tr>
             <td class="image" onclick="showOverlay('the-imagination-of-the-unreal'                                  )"><img src="art/the-imagination-of-the-unreal.png"/></td>
@@ -52,16 +52,16 @@
             <td class="caption" id='trap-2' ><i>Trap #2</i>, 2018, steel and ribbon, 10"&nbsp;x&nbsp;10"&nbsp;x&nbsp;8".</td>
             <td class="caption" id='ribbons'><i>Ribbons</i>, 2015, white alabaster, 2011, 4"&nbsp;x&nbsp;3"&nbsp;x&nbsp;4".</td>
           </tr>
-          <!--tr>
-            <td class="image"><img src="art/stream.png"/></td>
-            <td class="image"><img src="art/frustration-and-anger.png"/></td>
-            <td class="image"><img src="art/ca-plane-pour-moi.png"/></td>
+          <tr>
+            <td class="image" onclick="showOverlay('stream')"               ><img src="art/stream.png"/></td>
+            <td class="image" onclick="showOverlay('frustration-and-anger')"><img src="art/frustration-and-anger.png"/></td>
+            <td class="image" onclick="showOverlay('ca-plane-pour-moi')"    ><img src="art/ca-plane-pour-moi.png"/></td>
           </tr>
           <tr>
             <td class="caption"><i>Stream</i></td>
             <td class="caption"><i>Angry Frustration</i></td>
             <td class="caption"><i>Ça plane pour moi</i></td>
-          </tr-->
+          </tr>
         </tbody>
       </table>
     </div>

@@ -8,3 +8,7 @@ function showOverlay(name) {
 function hideOverlay() {
   overlay.style.display = "none"
 }
+
+function setup() {
+  main.focus()
+}
