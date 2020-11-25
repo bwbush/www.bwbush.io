@@ -14,7 +14,7 @@
 #overlay table {
   margin-left     : auto  ;
   margin-right    : auto  ;
-  width           : 80%   ;
+/*width           : 80%   ;*/
   padding         : 2em   ;
   text-align      : center;
   background-color: white ;
@@ -50,8 +50,8 @@ h1 {
 }
 
 #navigation span, #navigation a {
-  margin-left    : 1em      ;
-  margin-right   : 1em      ;
+  margin-left    : 0.75em   ;
+  margin-right   : 0.25em   ;
   margin-top     : 0.5em    ;
   margin-bottom  : 0.5em    ;
   text-decoration: none     ;
@@ -123,6 +123,17 @@ div.poems {
 .poems p {
   display: block;
   margin : 0    ;
+}
+
+
+div.tarot {
+  display    : flex  ;
+  flex-wrap  : wrap  ;
+}
+
+.tarot img {
+  width  : 18%;
+  margin : 1% ;
 }
 
 
