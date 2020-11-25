@@ -32,9 +32,16 @@
 }
 
 h1 {
-  margin   : 0.25em ;
-  font-size: 2em    ;
-  color    : #284B67;
+  margin     : 0.25em             ;
+  font-size  : 2em                ;
+  font-family: "Noto Serif", serif;
+  font-style : italic             ;
+  color      : #284B67            ;
+}
+
+h2, th {
+  font-size: 1.5em    ;
+  color    : steelblue;
 }
 
 
@@ -45,7 +52,7 @@ h1 {
   align-items        : flex-start;
   overflow-x         : auto      ;
   border-bottom-style: solid     ;
-  border-bottom-width: thin      ;
+  border-bottom-width: thick     ;
   border-bottom-color: steelblue ;
 }
 
