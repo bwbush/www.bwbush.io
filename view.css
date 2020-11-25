@@ -102,6 +102,25 @@ table {
 }
 
 
+div.poems {
+  display    : flex  ;
+  flex-wrap  : wrap  ;
+  align-items: center;
+}
+
+.poems div {
+  margin          : 1em           ;
+  padding         : 1em           ;
+  border-radius   : 1em           ;
+  background-color: lightsteelblue;
+}
+
+.poems p {
+  display: block;
+  margin : 0    ;
+}
+
+
 body {
   height        : 100vh ;
   margin        : 0     ;
