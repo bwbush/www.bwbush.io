@@ -71,6 +71,21 @@ h1 {
 }
 
 
+.contacts a:hover {
+  text-decoration-line: underline;
+}
+
+.contacts a {
+  text-decoration: none ;
+  color          : black;
+}
+
+#photo {
+  max-width: 10em ;
+  float    : right;
+}
+
+
 table {
   width       : 100% ;
   table-layout: fixed;
@@ -94,6 +109,10 @@ table {
 
 .playlist {
   vertical-align: top;
+}
+
+.playlist a:hover {
+  text-decoration-line: underline;
 }
 
 .playlist a {
