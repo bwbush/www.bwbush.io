@@ -92,6 +92,16 @@ table {
 }
 
 
+.playlist {
+  vertical-align: top;
+}
+
+.playlist a {
+  text-decoration: none ;
+  color          : black;
+}
+
+
 body {
   height        : 100vh ;
   margin        : 0     ;
