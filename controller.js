@@ -27,4 +27,5 @@ function hideOverlay() {
 
 function setup() {
   main.focus()
+  window.scrollTo(0, 0)
 }
