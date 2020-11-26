@@ -53,7 +53,7 @@ h2, th {
   overflow-x         : auto      ;
   border-bottom-style: solid     ;
   border-bottom-width: thick     ;
-  border-bottom-color: steelblue ;
+  border-bottom-color: #284B67   ;
 }
 
 #navigation span, #navigation a {
@@ -67,7 +67,7 @@ h2, th {
 }
 
 #navigation .navselect {
-  color: black;
+  color: #284B67;
 }
 
 
