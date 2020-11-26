@@ -19,7 +19,10 @@ function showImage(image) {
 
 function hideOverlay() {
   overlay.style.display = "none"
+  const x = window.scrollX
+  const y = window.scrollY
   main.focus()
+  window.scrollTo(x, y)
 }
 
 function setup() {
