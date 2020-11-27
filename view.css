@@ -169,6 +169,14 @@ div.tarot {
 }
 
 
+.plink {
+  display         : inline-block;
+  padding         : 0.25em      ;
+  border-radius   : 0.5em       ;
+  background-color: lightsteelblue;
+}
+
+
 a:hover {
   text-decoration-line: underline;
 }
