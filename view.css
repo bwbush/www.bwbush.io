@@ -65,13 +65,14 @@ h3 {
 }
 
 #navigation span, #navigation a {
-  margin-left    : 0.75em   ;
-  margin-right   : 0.25em   ;
-  margin-top     : 0.5em    ;
-  margin-bottom  : 0.5em    ;
-  text-decoration: none     ;
-  font-weight    : bold     ;
-  color          : steelblue;
+  margin-left    : 0.75em                 ;
+  margin-right   : 0.25em                 ;
+  margin-top     : 0.5em                  ;
+  margin-bottom  : 0.5em                  ;
+  text-decoration: none                   ;
+  font-weight    : bold                   ;
+  font-family    : "Noto Sans", sans-serif;
+  color          : steelblue              ;
 }
 
 #navigation .navselect {
