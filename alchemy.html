@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="view.css" type="text/css" rel="stylesheet"/>
+    <script src="controller.js"         type="application/javascript"> </script>
+    <title>Bricolage</title>
+  </head>
+  <body onload="setup()">
+    <div id="overlay" onclick="hideOverlay()">
+      <table>
+        <tr>
+          <td><img id="overlay_image" src="tarot/(presentation%20card%20-%20front).png" alt="(presentation card - front).png"/></td>
+        </tr>
+        <tr>
+          <td id="overlay_text"><i>Ribbon</i></td>
+        </tr>
+      </table>
+    </div>
+    <div id="header">
+      <h1>Bricolage</h1>   
+      <div id="navigation">
+        <a href="index.html"      >About</a>
+        <span class="navselect"   >Alchemy</span>
+        <a href="art.html"        >Art</a>
+        <a href="gallery.html"    >Gallery</a>
+        <!--a href="language.html">Language</a-->
+        <a href="music.html"      >Music</a>
+        <a href="poetry.html"     >Poetry</a>
+        <a href="tarot.html"      >Tarot</a>
+        <a href="technology.html" >Technology</a>
+      </div>
+    </div>
+    <div id="main" tabindex="0">
+      <h2>Alchemical Symbols in the tradition of Emerald Tablet</h2>
+      <p class="plink"><a href="alchemy/alchemy.pdf" target="bricolage">download PDF for printing</a></p>
+      <div class="tarot">
+        <img src="alchemy/Tabula%20Smaragdina.png" alt="Tabula Smaragdina" onclick="showImage(event.target)"/>
+        <img src="alchemy/Calcinatio.png"          alt="1. Calcinatio"     onclick="showImage(event.target)"/>
+        <img src="alchemy/Dissolutio.png"          alt="2. Dissolutio"     onclick="showImage(event.target)"/>
+        <img src="alchemy/Separatio.png"           alt="3. Separatio"      onclick="showImage(event.target)"/>
+        <img src="alchemy/Conjunctio.png"          alt="4. Conjunctio"     onclick="showImage(event.target)"/>
+        <img src="alchemy/Fermentatio.png"         alt="5. Fermentatio"    onclick="showImage(event.target)"/>
+        <img src="alchemy/Distillatio.png"         alt="6. Distillatio"    onclick="showImage(event.target)"/>
+        <img src="alchemy/Coagulatio.png"          alt="7. Coagulatio"     onclick="showImage(event.target)"/>
+      </div>
+    </div>
+  </body>
+</html>

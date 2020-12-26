@@ -14,7 +14,7 @@ function showGallery(name) {
 function showImage(image) {
   overlay.style.display = "flex"
   overlay_image.src = image.src
-  overlay_text.innerText = image.alt.slice(0, -4)
+  overlay_text.innerText = image.alt
 }
 
 function hideOverlay() {
